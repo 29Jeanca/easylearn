@@ -7,7 +7,7 @@ const NavBar = () => {
                 <h3>Learn English</h3>
                 <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
-                        <a className="nav-link links-navbar" href="#inicio">Inicio</a>
+                        <a className="nav-link links-navbar" href="/">Inicio</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link links-navbar" href="#modulos">Modulos</a>

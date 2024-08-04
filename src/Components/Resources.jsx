@@ -22,7 +22,7 @@ const Resources = () => {
         },
     ]
     const linkVideos=[
-        {g
+        {
             title:"Canal de Youtube para aprender inglés",
             url:"https://www.youtube.com/@KaleAnders"
         },

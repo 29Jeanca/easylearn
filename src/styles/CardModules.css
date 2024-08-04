@@ -5,6 +5,5 @@
     padding: 10px;
 }
 .card-modules:hover{
-    background-color: #f0f0f0;
     transform: scale(1.08);
 }
