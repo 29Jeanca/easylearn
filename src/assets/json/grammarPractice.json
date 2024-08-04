@@ -1,0 +1,65 @@
+{
+    "grammarPractice": [
+        {
+            "id": 1,
+            "question": "I ________ a teacher.",
+            "options": ["am", "is", "are"],
+            "answer": "am"
+        },
+        {
+            "id": 2,
+            "question": "She ________ a student.",
+            "options": ["am", "is", "are"],
+            "answer": "is"
+        },
+        {
+            "id": 3,
+            "question": "They ________ students.",
+            "options": ["am", "is", "are"],
+            "answer": "are"
+        },
+        {
+            "id": 4,
+            "question": "I ________ a student.",
+            "options": ["am", "is", "are"],
+            "answer": "am"
+        },
+        {
+            "id": 5,
+            "question": "He ________ a teacher.",
+            "options": ["am", "is", "are"],
+            "answer": "is"
+        },
+        {
+            "id": 6,
+            "question": "She ________ a teacher.",
+            "options": ["am", "is", "are"],
+            "answer": "is"
+        },
+        {
+            "id": 7,
+            "question": "They ________ teachers.",
+            "options": ["am", "is", "are"],
+            "answer": "are"
+        },
+        {
+            "id": 8,
+            "question": "I ________ a teacher.",
+            "options": ["am", "is", "are"],
+            "answer": "am"
+        },
+        {
+            "id": 9,
+            "question": "He ________ a student.",
+            "options": ["am", "is", "are"],
+            "answer": "is"
+        },
+        {
+            "id": 10,
+            "question": "They ________ students.",
+            "options": ["am", "is", "are"],
+            "answer": "are"
+        }
+    ]
+
+}

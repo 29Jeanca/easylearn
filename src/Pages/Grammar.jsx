@@ -1,8 +1,22 @@
+import { useEffect, useState } from "react";
 import Footer from "../Components/Footer";
 import NavBar from "../Components/Navbar";
 import "../styles/global-styles.css";
 import "../styles/Grammar.css";
+import ListPractice from "../Components/ListPractice";
+import { getGrammarTopics } from "../extras/getPageResources";
+
 const Grammar = () => {
+    const [topics,setTopics] = useState([])
+
+    useEffect(()=>{
+        const getAllGrammarTopics = async () => {
+            const topic = await getGrammarTopics()
+            setTopics(topic)
+        }
+        getAllGrammarTopics()
+    },[])
+
     return (
         <>
             <NavBar/>
@@ -17,45 +31,9 @@ const Grammar = () => {
                 </section>
 
                 <section className="cont-grammar">
+                    <h3 className="text-center">Temas de gramática</h3>
                     <div className="container">
-                        <div className="row g-2">
-                            <div className="col-12 col-md-6">
-                                <div className="card">
-                                    <div className="card-body">
-                                        <h3>Present Simple</h3>
-                                        <p>El presente simple es uno de los tiempos verbales más utilizados en inglés. Aprende cómo se forma y cómo se usa.</p>
-                                        <a href="" className="btn btn-primary">Ver más</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-12 col-md-6">
-                                <div className="card">
-                                    <div className="card-body">
-                                        <h3>Present Continuous</h3>
-                                        <p>El presente continuo es un tiempo verbal que se utiliza para hablar de acciones que están ocurriendo en el momento de hablar.</p>
-                                        <a href="" className="btn btn-primary">Ver más</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-12 col-md-6">
-                                <div className="card">
-                                    <div className="card-body">
-                                        <h3>Present Perfect</h3>
-                                        <p>El presente perfecto es un tiempo verbal que se utiliza para hablar de acciones que ocurrieron en un tiempo no determinado del pasado.</p>
-                                        <a href="" className="btn btn-primary">Ver más</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-12 col-md-6">
-                                <div className="card">
-                                    <div className="card-body">
-                                        <h3>Present Perfect Continuous</h3>
-                                        <p>El presente perfecto continuo es un tiempo verbal que se utiliza para hablar de acciones que comenzaron en el pasado y continúan en el presente.</p>
-                                        <a href="" className="btn btn-primary">Ver más</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       <ListPractice list={topics}/>
                     </div>
                 </section>
             </main>

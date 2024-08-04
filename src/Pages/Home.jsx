@@ -10,16 +10,12 @@ const Home = () => {
       <NavBar />
       <main>
         <section className="cont-title">
-          <div className="container">
-            <div>
-              <div className="col-12">
+          <div className="d-flex flex-column justify-content-center mx-auto">
                 <h1 className="text-center">¡Bienvenido a Learn English!</h1>
                 <p className="text-center">
                   Página para practicar y aprender inglés de forma sencilla y
                   rápida.
                 </p>
-              </div>
-            </div>
           </div>
         </section>
         <Modules />
