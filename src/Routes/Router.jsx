@@ -10,19 +10,19 @@ const router = createBrowserRouter([
         element: <Home/>
     },
     {
-        path: "/",
+        path: "/easylearn/grammar",
         element: <Grammar/>
     },
     {
-        path: "/vocabulary",
+        path: "/easylearn/vocabulary",
         element: <Vocabulary/>
     },
     {
-        path: "/pronunciation",
+        path: "/easylearn/pronunciation",
         element: <Pronunciation/>
     },
     {
-        path: '/conversation',
+        path: '/easylearn/conversation',
         element: <Conversation/>
     }
 ])

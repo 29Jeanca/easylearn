@@ -3,32 +3,32 @@ import CardResource from "./CardResource";
 const Resources = () => {
     const linkBooks=[
         {
-            title:"Inglés para Dummies",
-            url:"https://www.amazon.es/Ingl%C3%A9s-para-Dummies-Gail-Brenner/dp/8432903286"
+            title:"Manuales para aprender inglés",
+            url:"https://aprendergratis.es/tutoriales-y-manuales/manuales-de-ingles-para-descargar-a1-c1/"
         },
         {
-            title:"Inglés para Dummies",
-            url:"https://www.amazon.es/Ingl%C3%A9s-para-Dummies-Gail-Brenner/dp/8432903286"
+            title:"Libros en PDF para aprender inglés",
+            url:"https://ensedeciencia.com/2022/09/15/los-mejores-libros-para-aprender-ingles-en-formato-pdf/"
         },
     ]
     const linkWebs=[
         {
-            title:"Inglés para Dummies",
-            url:"https://www.amazon.es/Ingl%C3%A9s-para-Dummies-Gail-Brenner/dp/8432903286"
+            title:"Mide tu nivel de inglés",
+            url:"https://www.cambridgeenglish.org/es/test-your-english/"
         },
         {
-            title:"Inglés para Dummies",
-            url:"https://www.amazon.es/Ingl%C3%A9s-para-Dummies-Gail-Brenner/dp/8432903286"
+            title:"Cursos adicionales",
+            url:"https://www.bbc.co.uk/learningenglish"
         },
     ]
     const linkVideos=[
-        {
-            title:"Inglés para Dummies",
-            url:"https://www.amazon.es/Ingl%C3%A9s-para-Dummies-Gail-Brenner/dp/8432903286"
+        {g
+            title:"Canal de Youtube para aprender inglés",
+            url:"https://www.youtube.com/@KaleAnders"
         },
         {
-            title:"Inglés para Dummies",
-            url:"https://www.amazon.es/Ingl%C3%A9s-para-Dummies-Gail-Brenner/dp/8432903286"
+            title:"Historias en inglés",
+            url:"https://www.youtube.com/watch?v=VNgnAABR5Nc"
         },
     ]
     return(

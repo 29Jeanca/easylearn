@@ -4,26 +4,26 @@
       "id": 1,
       "title": "Gramática",
       "description": "Sumergéte dentro de lo fundamental de la gramática",
-       "link": "/grammar"
+       "link": "/easylearn/grammar"
     },
     {
       "id": 2,
       "title": "Vocabulario",
       "description": "Aprende palabras y frases útiles para tu día a día",
-      "link": "/vocabulary"
+      "link": "/easyLearn/vocabulary"
 
     },
     {
       "id": 3,
       "title": "Conversación",
       "description": "Practica tus habilidades de conversación con hablantes nativos",
-      "link": "/conversation"
+      "link": "/easylearn/conversation"
     },
     {
       "id": 4,
       "title": "Pronunciación",
       "description": "Mejora tu pronunciación y entonación",
-      "link": "/pronunciation"
+      "link": "/easylearn/pronunciation"
     }
   ]
 }
