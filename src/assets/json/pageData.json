@@ -1,0 +1,29 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Gramática",
+      "description": "Sumergéte dentro de lo fundamental de la gramática",
+       "link": "/grammar"
+    },
+    {
+      "id": 2,
+      "title": "Vocabulario",
+      "description": "Aprende palabras y frases útiles para tu día a día",
+      "link": "/vocabulary"
+
+    },
+    {
+      "id": 3,
+      "title": "Conversación",
+      "description": "Practica tus habilidades de conversación con hablantes nativos",
+      "link": "/conversation"
+    },
+    {
+      "id": 4,
+      "title": "Pronunciación",
+      "description": "Mejora tu pronunciación y entonación",
+      "link": "/pronunciation"
+    }
+  ]
+}
