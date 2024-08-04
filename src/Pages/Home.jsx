@@ -19,7 +19,9 @@ const Home = () => {
           </div>
         </section>
         <Modules />
+        <section className="cont-resources">
         <Resources />
+        </section>
       </main>
       <footer>
         <Footer/>
