@@ -1,0 +1,29 @@
+.cont-question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+.cont-exercises{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+}
+.cont-answer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1vh;
+    gap:20px;
+}
+@media (max-width: 768px){
+    .cont-exercises{
+        grid-template-columns: 1fr;
+    }
+}

@@ -4,16 +4,21 @@ import NavBar from "../Components/Navbar";
 import "../styles/global-styles.css";
 import "../styles/Grammar.css";
 import ListPractice from "../Components/ListPractice";
-import { getGrammarTopics } from "../extras/getPageResources";
-
+import { getGrammarExercises, getGrammarTopics } from "../extras/getPageResources";
+import Practice from "../Components/Practice";
 const Grammar = () => {
     const [topics,setTopics] = useState([])
-
+    const [exercises,setExercises] = useState([])
     useEffect(()=>{
         const getAllGrammarTopics = async () => {
             const topic = await getGrammarTopics()
             setTopics(topic)
         }
+        const getExercises = async () => { 
+            const exercies = await getGrammarExercises()
+            setExercises(exercies)
+        }
+        getExercises()
         getAllGrammarTopics()
     },[])
 
@@ -34,6 +39,12 @@ const Grammar = () => {
                     <h3 className="text-center">Temas de gramática</h3>
                     <div className="container">
                        <ListPractice list={topics}/>
+                    </div>
+                </section>
+                <section>
+                    <h3 className="text-center">Práctica</h3>
+                    <div className="const-main-questions">
+                        <Practice title={"Present Simple Practice"} description={"En esta práctica te centraras en usar el presente simple para describir acciones y hábitos diarios"}  list={exercises} key={exercises.id}/>
                     </div>
                 </section>
             </main>
