@@ -29,6 +29,18 @@
     background-color: #229f63;
     color: #fff;
 }
+.cont-question{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.input-question{
+    padding: 15px;
+    border: 1px solid;
+    width: 100%;
+    text-align: center;
+}
 @media (max-width: 768px){
     .cont-exercises{
         grid-template-columns: 1fr;

@@ -7,7 +7,7 @@ const CardPractice = ({ title, description }) => {
                 <div className="card-body card-topics">
                     <h3>{title}</h3>
                     <p>{description}</p>
-                    <a href="" className="btn btn-success">Ver más</a>
+                    <a href="#presentSimple" className="btn btn-success">Ver más</a>
                 </div>
             </div>
         </div>

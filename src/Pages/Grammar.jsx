@@ -15,8 +15,8 @@ const Grammar = () => {
             setTopics(topic)
         }
         const getExercises = async () => { 
-            const exercies = await getGrammarExercises()
-            setExercises(exercies)
+            const exercices = await getGrammarExercises()
+            setExercises(exercices)
         }
         getExercises()
         getAllGrammarTopics()
@@ -43,7 +43,7 @@ const Grammar = () => {
                 </section>
                 <section>
                     <h3 className="text-center">Práctica</h3>
-                    <div className="const-main-questions">
+                    <div className="const-main-questions" id="presentSimple">
                         <Practice title={"Present Simple Practice"} description={"En esta práctica te centraras en usar el presente simple para describir acciones y hábitos diarios"}  list={exercises} key={exercises.id}/>
                     </div>
                 </section>

@@ -11,7 +11,7 @@
     --link-color: #0000EE; /* Color estándar para enlaces */
     --hover-color: #0000EE; /* Color de hover para enlaces */
     --card-background-color: #f2f2f2;
-    --card-border-color: #ccc;
+    --card-border-color: #e2d4d4;
     --section-background-color: #f2f2f2;
     --footer-background-color: #f2f2f2;
     --cont-button-toggler: #f2f2f2;
@@ -25,7 +25,7 @@
     --link-color: #1E90FF; 
     --hover-color: #1E90FF; 
     --card-background-color: #333;
-    --card-border-color: #444;
+    --card-border-color: #080808;
     --section-background-color: #444;
     --footer-background-color: #444;
     --cont-button-toggler: #444;
@@ -82,6 +82,17 @@ footer{
 }
 .cont-button-navbar{
     background-color: var(--cont-button-toggler);
+}
+.cont-grammar{
+    background-color: var(--card-background-color);
+    color: var(--text-color);
+    border: 1px solid var(--card-border-color);
+    border-radius: 15px;
+}
+.input-question{
+    background-color: var(--card-background-color);
+    color: var(--text-color);
+    border-color: var(--card-border-color);
 }
 @media screen and (max-width: 768px) {
     .card-topics:hover{

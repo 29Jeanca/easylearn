@@ -4,7 +4,7 @@ import Question from "./Question"
 const Practice=({title,description,list})=>{
     return(
         <>
-         <section>
+         <section className="text-center">
             <h1>{title}</h1>
             <p>{description}</p>
          </section>
@@ -13,7 +13,6 @@ const Practice=({title,description,list})=>{
                 return(
                     <>
                     <Question key={exercise.id} number={exercise.id} question={exercise.question} id={exercise.id}/>
-                        
                     </>
                 )
             })}

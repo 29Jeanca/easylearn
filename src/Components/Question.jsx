@@ -7,6 +7,7 @@ import { getGrammarAnswers } from '../extras/getPageResources';
 const Question = ({ number, question, id }) => {
   const [inputValue, setInputValue] = useState(question);
   const [list, setList] = useState([]);
+  const [selectedIndex, setSelectedIndex] = useState(null); 
 
   useEffect(() => {
     const getAnswers = async () => {
@@ -16,9 +17,10 @@ const Question = ({ number, question, id }) => {
     getAnswers();
   }, [id]);
 
-  const handleAnswer = (answer) => {
-    console.log("Selected answer:", answer);
-  };
+  const handleAnswer = (index) => {
+    setSelectedIndex(index); 
+    console.log("Selected answer:", list[index]);
+  }
 
   return (
     <div className="cont-question">
@@ -26,12 +28,13 @@ const Question = ({ number, question, id }) => {
       <input
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
+        className="input-question"
       />
       <div className="cont-answer">
         {list.map((answer, index) => (
           <button
-            onClick={() => handleAnswer(answer)}
-            className="btn btn-info button-answer"
+            onClick={() => handleAnswer(index)}
+            className={`btn button-answer ${selectedIndex === index ? 'btn-success' : 'btn-info'}`}
             key={index}
           >
             {answer}

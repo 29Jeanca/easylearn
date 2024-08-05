@@ -2,64 +2,63 @@
     "grammarPractice": [
         {
             "id": 1,
-            "question": "I ________ a teacher.",
-            "options": ["am", "is", "are"],
-            "answer": "am"
+            "question": "She ________ to the gym every day.",
+            "options": ["goes", "go", "going"],
+            "answer": "goes"
         },
         {
             "id": 2,
-            "question": "She ________ a student.",
-            "options": ["am", "is", "are"],
-            "answer": "is"
+            "question": "They ________ English at school.",
+            "options": ["learn", "learns", "learning"],
+            "answer": "learn"
         },
         {
             "id": 3,
-            "question": "They ________ students.",
-            "options": ["am", "is", "are"],
-            "answer": "are"
+            "question": "He ________ coffee in the morning.",
+            "options": ["drinks", "drink", "drinking"],
+            "answer": "drinks"
         },
         {
             "id": 4,
-            "question": "I ________ a student.",
-            "options": ["am", "is", "are"],
-            "answer": "am"
+            "question": "The cat ________ on the bed.",
+            "options": ["sleeps", "sleep", "sleeping"],
+            "answer": "sleeps"
         },
         {
             "id": 5,
-            "question": "He ________ a teacher.",
-            "options": ["am", "is", "are"],
-            "answer": "is"
+            "question": "I ________ to the office by bike.",
+            "options": ["ride", "rides", "riding"],
+            "answer": "ride"
         },
         {
             "id": 6,
-            "question": "She ________ a teacher.",
-            "options": ["am", "is", "are"],
-            "answer": "is"
+            "question": "My parents ________ dinner at 7 PM.",
+            "options": ["have", "has", "having"],
+            "answer": "have"
         },
         {
             "id": 7,
-            "question": "They ________ teachers.",
-            "options": ["am", "is", "are"],
-            "answer": "are"
+            "question": "She ________ a new book every month.",
+            "options": ["reads", "read", "reading"],
+            "answer": "reads"
         },
         {
             "id": 8,
-            "question": "I ________ a teacher.",
-            "options": ["am", "is", "are"],
-            "answer": "am"
+            "question": "We ________ a lot of exercises in class.",
+            "options": ["do", "does", "doing"],
+            "answer": "do"
         },
         {
             "id": 9,
-            "question": "He ________ a student.",
-            "options": ["am", "is", "are"],
-            "answer": "is"
+            "question": "The teacher ________ the lesson very clearly.",
+            "options": ["explains", "explain", "explaining"],
+            "answer": "explains"
         },
         {
             "id": 10,
-            "question": "They ________ students.",
-            "options": ["am", "is", "are"],
-            "answer": "are"
+            "question": "You ________ breakfast at 8 AM.",
+            "options": ["eat", "eats", "eating"],
+            "answer": "eat"
         }
     ]
-
 }
