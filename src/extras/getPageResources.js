@@ -25,5 +25,16 @@ const getGrammarExercises = async()=>{
     console.error("Error fetching resources", error);
   }
 }
+const getGrammarAnswers = async (id) => {
+  try {
+    const info = grammarExercises.grammarPractice;
+    const exercise = info.find(exercise => exercise.id === id);
+    return exercise ? exercise.options : [];
+  } catch (error) {
+    console.error("Error fetching resources", error);
+  }
+};
 
-export { getResources, getGrammarTopics, getGrammarExercises };
+
+
+export { getResources, getGrammarTopics, getGrammarExercises, getGrammarAnswers };

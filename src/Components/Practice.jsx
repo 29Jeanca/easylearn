@@ -12,7 +12,7 @@ const Practice=({title,description,list})=>{
             {list.map((exercise)=>{
                 return(
                     <>
-                    <Question key={exercise.id} number={exercise.id} question={exercise.question} list={list}/>
+                    <Question key={exercise.id} number={exercise.id} question={exercise.question} id={exercise.id}/>
                         
                     </>
                 )

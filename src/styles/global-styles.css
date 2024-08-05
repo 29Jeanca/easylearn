@@ -14,6 +14,9 @@
     --card-border-color: #ccc;
     --section-background-color: #f2f2f2;
     --footer-background-color: #f2f2f2;
+    --cont-button-toggler: #f2f2f2;
+    --text-color-dark: #fff;
+
 }
 
 [data-theme="dark"] {
@@ -25,6 +28,8 @@
     --card-border-color: #444;
     --section-background-color: #444;
     --footer-background-color: #444;
+    --cont-button-toggler: #444;
+    --text-color-white: #fff;
 }
 
 body {
@@ -74,6 +79,9 @@ footer{
 }
 .card-topics:hover{
     transform: scale(1.1);
+}
+.cont-button-navbar{
+    background-color: var(--cont-button-toggler);
 }
 @media screen and (max-width: 768px) {
     .card-topics:hover{
