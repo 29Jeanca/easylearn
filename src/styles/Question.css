@@ -41,6 +41,10 @@
     width: 100%;
     text-align: center;
 }
+.btn-selected-answer{
+    background-color: #01524a;
+    color: #fff;
+}
 @media (max-width: 768px){
     .cont-exercises{
         grid-template-columns: 1fr;
